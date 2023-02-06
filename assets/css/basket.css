@@ -1,0 +1,47 @@
+body {
+  background: #1a2a6c;
+  background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
+  overflow-y: scroll;
+}
+
+.cardBas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cardBas ul {
+  padding: 0;
+}
+.cardBas ul li {
+  list-style-type: none;
+}
+.cardBas ul li .product {
+  background-color: white;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border: 1px ridge gray;
+  display: flex;
+  padding: 5px;
+  margin-top: 10px;
+}
+.cardBas ul li .product .image img {
+  width: 90px;
+}
+.cardBas ul li .product .info-add .info {
+  font-size: 12px;
+}
+.cardBas ul li .product .delete .deleteIcon {
+  width: 20px;
+  height: 20px;
+  color: red;
+  margin-right: 5px;
+}
+
+.priceTotal {
+  color: white;
+  border: 1px solid black;
+  background-color: gray;
+  padding: 10px;
+}/*# sourceMappingURL=basket.css.map */

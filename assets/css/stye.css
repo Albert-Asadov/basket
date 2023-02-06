@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1a2a6c;
+  background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
+}
+
+.price {
+  display: inline-block;
+  padding: 2px 5px;
+}
+.price .font {
+  font-size: 16px;
+}
+.price .total-price {
+  font-size: 16px;
+}
+
+.button button {
+  width: 130px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+
+.basketIcon {
+  cursor: pointer;
+}
+
+#Products {
+  padding: 50px 0;
+}
+#Products .product {
+  padding: 10px 20px;
+  border: 2px ridge rgb(179, 179, 179);
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+#Products .product .image {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+#Products .product .image img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.cardBas {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  overflow-y: scroll;
+  display: block;
+}
+.cardBas ul {
+  padding: 0;
+}
+.cardBas ul li {
+  list-style-type: none;
+}
+.cardBas ul li .product {
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border: 1px ridge gray;
+  display: flex;
+  padding: 5px;
+  margin-top: 10px;
+}
+.cardBas ul li .product .image img {
+  width: 90px;
+}
+.cardBas ul li .product .info-add .info {
+  font-size: 12px;
+}
+.cardBas ul li .product .delete .deleteIcon {
+  width: 20px;
+  height: 20px;
+  color: red;
+  margin-right: 5px;
+}
+
+.active {
+  display: none;
+}/*# sourceMappingURL=stye.css.map */
